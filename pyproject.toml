@@ -1,0 +1,11 @@
+# Formatting and lint, as PartCAD's own repository has them.
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.flake8]
+max-line-length = 120
+extend-ignore = ["E203", "E501"]
